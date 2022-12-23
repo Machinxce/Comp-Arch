@@ -1,0 +1,33 @@
+[sbasir@mercury1 Assignment7]$ ./a.out
+
+This is the Parent process report:
+
+PARENT:  Process ID is:         3742259
+PARENT:  Process parent ID is:  3742115
+PARENT:  Real UID is:           18545
+PARENT:  Real GID is:           18545
+PARENT:  Effective UID is:      2022
+PARENT:  Effective GID is:      2022
+PARENT:  Process priority:      0
+
+PARENT:  will now create a child, write pipe, and do a normal termination
+
+PARENT: created Child with PID 3742260
+PARENT: ### Goodbye ###
+
+This is the Child process report:
+
+CHILD:  Process ID is:          3742260
+CHILD:  Process parent ID is:   3742259
+CHILD:  Real UID is:            18545
+CHILD:  Real GID is:            18545
+CHILD:  Effective UID is:       2022
+CHILD:  Effective GID is:       2022
+CHILD:  Process priority:       0
+
+CHILD: about to read pipe and report parent message:
+CHILD: parent's message is:
+This is the pipe message from the parent with PID 3742259
+
+[sbasir@mercury1 Assignment7]$ CHILD: Process parent ID is now:   1
+CHILD: ### Goodbye ###

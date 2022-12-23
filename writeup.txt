@@ -1,0 +1,9 @@
+Samin Basir
+Samin_basir@student.uml.edu
+
+Degree of sucess:100%
+
+This programs utilizes fork() and pipe() system calls. The initial thread of the program created a pipe 
+for communication between process then fork to create the child process.I generally followed the started code and 
+began modifiying it as suggested by the Professor. My code runs as its supposed to as shown on 
+the help pdf. Overall I had no issues with this program.
